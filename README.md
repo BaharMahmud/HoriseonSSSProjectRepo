@@ -5,6 +5,9 @@ Steps to clone it to your local go to the "https://github.com/BaharMahmud/Horise
 This assignment requires to apply all the AC to the task.
 The live URL
 "https://baharmahmud.github.io/HoriseonSSSProjectRepo/"
+
+The index.html is the file with Semantic elements (HTML). Style. css file is the file used for the HTML element styling. Images folder includes the images used in the web.
+This project is to add accessibility to the HTML and make it more usable and  accessible to end users. This assigment requires HTML to have semantic elements only. Use the US and AC below.
 ## User Story
 
 ```
