@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is the background for the body of the page*/
+body {
+    
+    background-color: white;
+}
+
+/*Header background color font size and text coolor for headers*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    background-size: 200px 150 px;
+    
+}
+
+ /* Header position and font size*/
+.header h1 {
+    display: inline-block;
+    font-size: 44px;
+    position: relative;
+    left: 600px;
+}
+
+/*header navigated urls font size and type*/
+.header nav {
+    margin-block: 40px 30 px;
+    padding-top: 20px;
+    margin-right: 20px;
+    float: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+/*This is how to display listed urls*/
+.header nav ul li {
+    display:inline-block;
+    margin-left: 120px;
+    margin-right: 100px;
+  
+
+}
+
+/*Color and test decoration for anchor links.*/
+a {  color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*Background image after headers*/
+.hero {
+    height: 900px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: right;
+    
+    
+}
+
+/*Background color and measurements for the headers, iamges and pharagraphs below the background image*/
+.content {
+   
+    width: 100%;
+    display: inline-flex;
+    margin-left: 0px;
+    background-color: white;
+    margin-bottom: 5px;
+   
+}
+ /*This is for the headers in content class to be inline to next to each other*/
+.content h1.h2.h3 {
+    display: inline;
+   
+}
+
+/*This is for the SEO block size, fon't size and type. It inlcudes the background and text color.*/
+.search-engine-optimization {
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 0px;
+    padding-right: 10px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+    color: black;
+}
+
+ 
+ 
+ /*This is for the ORM block size, fon't size and type. It inlcudes the background and text color.*/
+.online-reputation-management {
+    margin: 10px;
+    padding: 0px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+    position: relative;
+   
+   
+}
+
+/*This is for the SMM block size, fon't size and type. It inlcudes the background and text color.*/
+.social-media-marketing {
+    margin: 10px;
+    padding: 0px;
+    height: 300px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+    height: 20px;
+    margin-right: 30px;
+     top: 10px;
+}
+
+
+.content p{
+    /*Contect pharagrapsh size, type, color, background color and position*/
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    margin-left: 0px; 
+    color: black;
+    position: relative;
+    top: 10px;
+    
+   }
+
+   /*Contecnt class images way of display and size*/
+   .content img {
+    display: inline;
+    max-height: 150px;
+   
+   }
+  /*This margin size For each image in content section */
+.search-engine-optimization img {
+  margin-bottom:10px;
+    margin-left: 10px;
+}
+.online-reputation-management img{
+    margin-bottom: 7px;
+    
+}
+
+.float-right {
+    /*Right two images positioned in the page*/
+    float: bottom;
+    margin-left: 0px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+/*This section is for each header in content class. It inlucdes size of the text, color and type*/
+.search-engine-optimization h1 {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+  
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+   
+}
+
+.social-media-marketing h3 {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+  }
+
+/*This is for benefits class box measurements and background color*/
+.benefits {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 100%;
+    height: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*paragraph position*/
+ .benefits p{
+    margin: 30px;
+    position: relative;
+    bottom: 130px;
+    left: 0px;
+
+ }
+
+/*Each benefit section measuremnts, mag=rgin, background color and etc*/
+.benefit-lead {
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    background-color: ffffff;
+    margin-right: 0px;
+}
+
+
+.benefit-brand {
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    height: 50px;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Benefits class paraghrapps positions.*/
+.benefit-cost p{
+
+    position: relative;
+    bottom: 100px;
+}
+
+/*Benefits class headers position, text size and type.*/
+.benefits h4,h5,h6 {
+   
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 20px;
+    right: 600px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*For each element in benefits class include position, margin and padding*/
+.benefit-lead h4{
+position: relative;
+top: 0px;
+}
+.benefit-lead img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100px;
+    position: relative;
+    bottom: 50px;
+    right: 700px;
+}
+
+.benefit-brand img {
+   
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    position: relative;
+    bottom: 30px;
+    right: 700px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    position: relative;
+    bottom: 25px;
+    right: 700px;
+}
+
+/*Footer section position, fon't size and type*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    background-color: #2a607c;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
