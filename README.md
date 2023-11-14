@@ -1,6 +1,6 @@
 # HoriseonSSSProjectRepo
 This is the repo for the web page of Heriseon  Social Solution Services.
-Steps to clone it to your local go to the https://github.com/BaharMahmud/HoriseonSSSProject/tree/main repo. From the Code get the SSH and  clone it to your local. Create a branch.
+Steps to clone it to your local go to the https://github.com/BaharMahmud/HoriseonSSSProjectRepo repo. From the Code get the SSH and  clone it to your local. Create a branch.
 
 This assignment requires to apply all the AC to the task.
 
